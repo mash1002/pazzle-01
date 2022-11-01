@@ -1,0 +1,37 @@
+.wrapper{
+    width:1200px;
+    margin:0 auto;
+}
+
+.header{
+    width:100%;
+    height:70px;
+    background: #87CEEB
+}
+
+.main{
+    float:left;
+    width:300px;
+    height:500px;
+    background: #FFB6C1
+}
+
+.side{
+    float:left;
+    width:900px;
+    height:500px;
+    background: #F08080
+}
+
+.footer{
+    margin: 0 auto;
+    width:1200px;
+    height:130px;
+    background: #EE82EE
+}
+
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+}
